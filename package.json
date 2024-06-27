@@ -1,0 +1,14 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "Alura geek project",
+  "main": "index.js",
+  "scripts": {
+    "server": "json-server --watch db.json"
+  },
+  "author": "Angel Tapia",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.1"
+  }
+}

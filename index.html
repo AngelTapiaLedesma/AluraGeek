@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>AluraGeek</title>
+</head>
+
+<body>
+    <!-- Cabecera -->
+    <header>
+        <img class="imagen-corazones" src="images/header.png" alt="3 Corazones">
+        <h1>Alura Geek</h1>
+    </header>
+
+    <!-- Seccion principal -->
+    <main class="main-section">
+        <section class="agregar__producto">    
+            <div class="agregar__producto__titulo">
+                <h2>Agregar Producto:</h2>
+            </div>
+            
+            <div class="inputs">
+                <form action="" class="agregar__producto__formulario" data-formulario>
+
+                    <fieldset class="formulario__campo">
+                        <input class="input nombre" type="text" placeholder="nombre..." data-nombre required> 
+                        <span class="mensaje-error"></span>
+                    </fieldset>
+
+                    <fieldset class="formulario__campo">
+                        <input class="input precio" type="number" placeholder="Precio..." min="1"  data-precio required>
+                        <span class="mensaje-error"></span>
+                    </fieldset>
+
+                    <fieldset class="formulario__campo">
+                        <input class="input imagen" type="text" placeholder="Imagen..." data-imagen required>
+                        <span class="mensaje-error"></span>
+                    </fieldset>
+
+                    <div class="agregar__producto__botones">
+                        <button id="boton-enviar" type="submit">Enviar</button>
+                        <button id="boton-limpiar" type="reset">Limpiar</button>
+                    </div>
+                    
+                </form>
+            </div>
+
+        </section>
+
+        <section class="zona-productos">
+            <div class="productos__titulo">
+                <h2>Mis productos:</h1>
+            </div>
+
+            <!-- parte de productos dinámicos -->
+            <ul class="productos" data-lista>
+
+            </ul>
+        </section>  
+    </main>
+
+    <!-- Pie de pagina -->
+    <footer>
+
+        <div class="footer-principal">
+            <img class="imagen-corazones" src="images/header.png" alt="3 Corazones">
+            <h1>AluraGeek</h1>
+        </div>
+
+        <div>
+            <h3>Desarrollado por Angel Tapia</h3>
+        </div>
+
+        <div>
+            <p>Alura LATAM - 2024</p>
+        </div>
+
+    </footer>
+
+</body>
+<!-- Scripts -->
+<script src="scripts/main.js" type="module"></script>
+<script src="scripts/crearProducto.js" type="module"></script>
+<script src="scripts/mostrarProducto.js" type="module"></script>
+<script src="scripts/eliminarProducto.js" type="module"></script>
+</html>

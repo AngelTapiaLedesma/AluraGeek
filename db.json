@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": "3f60",
+      "photo": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-card-40-iphone14-202209_FMT_WHH?wid=508&hei=472&fmt=p-jpg&qlt=95&.v=1693086370007",
+      "name": "Iphone",
+      "price": "12500"
+    },
+    {
+      "id": "0866",
+      "photo": "https://m.media-amazon.com/images/I/71UXvut9ZPL._AC_SX522_.jpg",
+      "name": "LG Pantalla OLED EVO 55",
+      "price": "16554"
+    },
+    {
+      "id": "b55c",
+      "photo": "https://m.media-amazon.com/images/I/61k3mXl0knL._AC_SX679_.jpg",
+      "name": " Buggy Electrico ",
+      "price": "3600"
+    },
+    {
+      "id": "7557",
+      "photo": "https://m.media-amazon.com/images/I/71Z031zkRqL._AC_SX522_.jpg",
+      "name": "ASUS laptop",
+      "price": "13000"
+    },
+    {
+      "id": "59ad",
+      "photo": "https://m.media-amazon.com/images/I/5199Jw1hLdL.__AC_SY300_SX300_QL70_ML2_.jpg",
+      "name": "Razer Kraken V3",
+      "price": "1200"
+    },
+    {
+      "id": "467f",
+      "photo": "https://m.media-amazon.com/images/I/51HKV3fL3GL._AC_SX679_.jpg",
+      "name": "Vaso Termico",
+      "price": "225"
+    },
+    {
+      "id": "6be3",
+      "photo": "https://m.media-amazon.com/images/I/51CqLCjKwIL._AC_SX679_.jpg",
+      "name": "Antioxidante",
+      "price": "424"
+    }
+  ]
+}
